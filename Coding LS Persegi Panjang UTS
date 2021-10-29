@@ -1,0 +1,8 @@
+print("Menghitung Luas Persegi Panjang")
+p = int(input("Panjang Persegi Panjang = "))
+l = int(input("Lebar Persegi Panjang = "))
+satuan = str(input("Masukkan satuan lebar dan panjang = "))
+satuanhasil = satuan + "2"
+luas = p*l
+
+print("Hasil dari luas dengan Panjang" , p , " dan Lebar" , l , " Mendapatkan Hasil = " , luas , satuanhasil)
