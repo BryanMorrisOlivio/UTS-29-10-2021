@@ -1,0 +1,10 @@
+print("Menghitung Detik")
+d = int(input("Masukkan Jumlah Detik = "))
+h = d // 86400
+x1 = d & 86400
+jam = x1 // 3600
+x2 = x1 % 3600
+m = x2 // 60
+s = x2 % 60
+
+print(h, " Hari," , jam , " Jam," , m , " Menit," , s , " Detik.")
