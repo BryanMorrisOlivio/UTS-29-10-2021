@@ -1,0 +1,39 @@
+nama = "Bryan Morris Olivio"
+ttl = "26 September 2002"
+alm = "Jl. R. E. Martadinata no. 388"
+sd = "SD Karya Yosef"
+smp = "SMP Katolik Santu Petrus"
+sma = "SMA Katolik Santu Petrus"
+s1 = "STMIK Pontianak (Semester 3)"
+ls1 = "Pendidikan pelajaran IPA"
+ls2 = "Pendidikan Bahasa"
+orga = "Putra Putri Altar Gereja Santu Petrus"
+jorganisasi = "Wakil Ketua"
+lamaorganisasi = "Kelas 6 Sekolah Dasar"
+prestrasi = "Lomba makan Kerupuk"
+agama = "Katholik"
+
+print("                              Curriculum Vitae \n\n")
+print("                                 DATA DIRI \n")
+print("===============================================================================")
+print("Nama                       : " + nama)
+print("Tempat Tanggal Lahir       : " + ttl)
+print("Alamat                     : " + alm)
+print("Agama                      : " + agama)
+print("===============================================================================")
+print("                             Riwayat pendidikan \n")
+print("Sekolah Dasar              : " + sd)
+print("Sekolah Menengah Pertama   : " + smp)
+print("Sekolah Menengah Atas      : " + sma)
+print("Kuliah                     : " + s1)
+print("\n")
+print("Pendidikan Tidak Formal    : " + ls1)
+print("                           : " + ls2)
+print("===============================================================================")
+print("                            Riwayat Organisasi \n")
+print("Nama Organisasi            : " + orga)
+print("Jabatan Oranisasi          : " + jorganisasi)
+print("Lama Mengikuti Oraganisasi : " + lamaorganisasi)
+print("===============================================================================")
+print("                            Riwayat Prestrasi \n")
+print("Hasil Prestrasi            : " + prestrasi)
