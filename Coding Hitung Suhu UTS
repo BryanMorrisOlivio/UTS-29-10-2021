@@ -1,0 +1,30 @@
+print("                 Keversi Suhu dari Celcius \n")
+c1 = int(input("Masukkan Suhu Celcius yang kamu mau = "))
+f1 = (9/5) * c1 + 32
+r1 = (4/5) * c1
+
+print("                 Keversi Suhu dari Fahrenheit \n")
+f2 = int(input("Masukkan Suhu Fahrenheit yang kamu mau = "))
+c2 = (5/9) * (f2-32)
+r2 = (4/9) * (f2-32)
+
+print("                 Keversi Suhu dari Reamur \n\n")
+r3 = int(input("Masukkan Suhu Reamur yang kamu mau = \n\n"))
+c3 = (5/4) * r3
+f3 = (9/4) * (r3+32)
+
+print("HASIL CELCIUS \n")
+print(c1 , "Celcius =  " , f1 , " Fahrenheit")
+print(c1 , "Celcius =  " , r1 , " Reamur")
+
+print("\n")
+
+print("HASIL FAHRENHEIT \n")
+print(f2 , "Fahrenheit =  " , c2 , " Celcius")
+print(f2 , "Fahrenheit =  " , r2 , " Reamur")
+
+print("\n")
+
+print("HASIL REAMUR \n")
+print(r3 , "Reamur =  " , c3 , " Celcius")
+print(r3 , "Reamur =  " , f3 , " Fahrenheit")
